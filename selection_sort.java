@@ -4,7 +4,7 @@ public class selection_sort {
 		int array[]= {4,1,9,8,2,3};
 		int length= array.length;
 		
-		for(int i=0; i<length-2; i++){
+		for(int i=0; i<length-1; i++){
 			int small=i;
 			for(int j=i+1; j<length; j++){
 				if(array[j]<array[small]){
